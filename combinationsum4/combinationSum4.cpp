@@ -1,4 +1,4 @@
-void genCombinations() {
+void genCombinations(int[] candidates, int target, int idx, List<Integer> subres, List<List<Integer>> res) {
   //DFS
 	if (target<0) {
 	        return;
@@ -34,5 +34,10 @@ int combinationSum4(vector<int>& nums, int target) {
 	    cout << nums[i] << endl;
 	}
 	vector<vector<int> > res;
+  vector<vector<int> > subres;
+  genCombinations(nums, target, 0, subres, res)
 	return res;
 }
+
+
+//https://shanzi.gitbooks.io/algorithm-notes/content/problem_solutions/power_of_two.html
