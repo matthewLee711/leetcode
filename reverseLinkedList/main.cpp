@@ -1,3 +1,4 @@
+//reverses linked list, starting with null as new head.
 ListNode * reverseList(ListNode * head) {
     ListNode* prev = nullptr;
     ListNode* curr = head;

@@ -12,7 +12,7 @@ int guess(int num);
 6.Go back to step 2.
 */
 
-
+//binary search example when needed
 class Solution {
 public:
     int guesser(int m) {
