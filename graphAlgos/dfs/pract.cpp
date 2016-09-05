@@ -54,15 +54,23 @@ int main() {
 	//Graph * test = new Graph(5);
 	//test->addEdge(0, 1);
 
-	Graph test(5);
+	Graph test(6);
 	std::cout << test.adjacency.size();
 	test.addEdge(0, 1);
 	test.addEdge(0, 2);
 	test.addEdge(1, 2);
 	test.addEdge(2, 0);
 	test.addEdge(2, 3);
-	test.addEdge(3, 3);
-
+	test.addEdge(3, 4);
+	test.addEdge(4, 5);
+	test.addEdge(5, 6);//doesnt print out 6
+	/*
+		 ---0----
+		//	 	 \
+		2---------1
+		 \
+	      3--4--5--6
+	*/
 	std::cout << "Following is Depth First Traversal (starting from vertex 2) \n";
 	test.initialize(2);
 
