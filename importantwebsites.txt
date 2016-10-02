@@ -1,0 +1,51 @@
+http://blog.triplebyte.com/how-to-pass-a-programming-interview
+http://highscalability.com/
+https://trananh.github.io/blog/work/2014/02/24/preparing-for-a-google-phone-interview.html
+
+Ask questions
+Talk through a brute-force solution <--after come up, ask if this optimal
+Talk through an optimized solution
+Write code
+
+
+
+Google
+http://javasplitter.blogspot.com/2010/10/google-phone-interview.html
+
+Phone Questions:
+1-2 algorithm problems OR 3
+
+//b tree problem
+1. write a function that counts the nodes in BS-tree whose values fit in the given range."
+Be clear and accurate in syntax, checks, etc.
+A C++ prototype may look like this:
+
+//graph problem
+2. 'There is a town with N people numbered 0 to N-1. Some people of this town
+knows some other people. The relation between them is not necessarily symmetric.
+ i.e. If a knows b, doesn't mean b knows a. This town needs a mayor.
+ The requisite for being a mayor is that he should be famous and impartial.
+ Being famous means that he should be known to everyone in the town. Being
+ impartial means that he should not know anyone in the town. Consider a function
+ knows(i, j) that return true if i knows j or false otherwise. Write a program
+ to return the list of people who are eligible for the mayor's post.'
+
+ 3. Tree recursion question, bit manipulation related question
+
+ 4. numbers "69", "88", and "818" are all strobogrammatic
+
+ 5. Dynamic Programming on strings.
+
+ 6. Recursion on binary trees
+
+7. Get used to dynamic programming and don't forget that adjacency lists can be hash tables
+
+8. array longest substring
+9.Arrays ambigram
+10. John Conway's Game of Life - Implement a method that updated the game board to its next state.
+11. disjoint bitsets
+12. pattern in list of strings
+13. Write a function to tell if three points are colinear.
+14. write a method to determine if a number is fibonacci
+15. fnding all common parents for set of nodes on a tree
+16. matrix class, two sum //might need to know generic programming
