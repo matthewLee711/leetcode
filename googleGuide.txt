@@ -1,0 +1,5 @@
+1. Resume screen - make sure you're something resembling qualified; Overview the process stages
+2. Online code sample - One hour, two questions--one easy, one less so
+3. Phone interview - Code in a shared google doc
+4. On-site interview - Two interviews before lunch and two more after; Individually, not bad, but with only 30 - 45 minutes in each interview for coding on the whiteboard, speed can be an issue
+5. Hiring… 

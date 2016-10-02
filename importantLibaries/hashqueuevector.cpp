@@ -52,7 +52,8 @@ void unordered_mapPowers() { int value = 0;
 #include <string>
 void stringPowers() {
   std::string word = "word!";
-  length = word.length();
+  //length = word.length();
+  
 }
 
 #include <algorithm>
