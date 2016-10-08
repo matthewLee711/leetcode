@@ -53,7 +53,10 @@ void unordered_mapPowers() { int value = 0;
 void stringPowers() {
   std::string word = "word!";
   //length = word.length();
-  
+  for(std::string::iterator it = word.begin(); it != str.end(); ++it) {
+    *it = *it;//use *it to do stuff
+  }
+
 }
 
 #include <algorithm>
