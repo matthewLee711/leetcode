@@ -1,0 +1,141 @@
+Make sure to explain your answer as you go and discuss with them instead of
+thinking of it as a question-answer session.
+IF PROBLEM HARD, Discuss you're going to use a human solution and develop brute force method
+Then, discuss optimization.
+
+Find first common ancestor given 2 nodes in a tree not necessarily a binary tree.
+
+Clone a linked list with random pointer
+
+Design a game of poker and focus was around scoring function of poker.
+
+Variation of merge procedure of merge sort.
+
+Given two integers, return the numbers of matched digit number. For ex, 130 and 239, return 1. 29 and 92, return 0
+
+
+reverse liked list,
+inorder traverse of a tree without recursive,
+remove duplicate in array, and
+sort algorothm
+
+1. Create a queue (enqueue and dequeue methods) using stacks as your only storage method
+2. Binary tree from inorder and preorder traversal pair
+3. Find where two linked lists converge in O(n) time and O(1) memory. Linked lists are guarantied to be valid and to converge at some point
+4. Print duplicates in an array (you may either print duplicate values many times or just once as they're discovered)
+
+Given a 2-D grid with certain cells (coordinates given) being inaccessible, and
+a virtual robot starting in the top left corner that can only go down or right,
+write an algorithm that will guarantee that the robot reaches the bottom right
+corner of the grid, or determines that a path (given the above constraints)
+is impossible.
+
+Reverse a singly linked list
+
+Sort an array
+
+Given a list of numbers, sort them and remove the duplicate numbers.
+
+Two rovers are on a planet and can move and set beacons. How would you get them to crash?
+
+You have two substrings of a string that overlap. How would you put them together into one string?
+
+Find minimum subarray that adds to a particular number
+
+Write an atoi function for scratch.
+
+combine the two arrays in order without using a sort algorithms after the merge?
+
+string of digits like "72388" and int n, delete n characters from the sting
+such the resulting string contains minimal number representation, you must
+preserve relative position of digits. Example: if st="72388" and n=2,
+the answer is 238.
+
+Algorithm to parse string for algebraic operations and solve with respect to order.
+
+Given a directory string "c/a/../b/./d" write a method that outputs the final
+directory. (In this example, "c/b/d"). A "." input stays in the current
+irectory, a ".." input goes back one.
+
+Design a method midNumbers(start, end, length) that prints the middle values
+between two integers. Ex: midNumbers(0,5,2) would print 2,3. midNumbers(1,10,4)
+would print 4,5,6,7. This question was left VERY vague and I think it was
+intentionally left up to the interviewee to clarify as much as possible. Follow
+ups included "How would you check for appropriate input? How would you protect
+against attacks, such as a buffer overflow attack? What are…
+
+How would you convert a row number on Excel to a label? Rows are labeled alphabetically with letters added on once the alphabet has been fully used. (Ex. row # 5 is labeled E, row # 27 is labeled AA, row # 28 is AB, row # 53 is BA and so forth) What would the row label be for a large number, such as 1500?
+while(num>0){
+    str += getCharFromNum(num%26); // this will return one char from A-Z
+    num /= 26;
+}
+return str;
+
+How to tell if there's a loop in a linked list. <this comes up often
+
+First one is to print out the first 50 Fibonacci numbers.
+
+Given a node of a binary tree, find the next node of the in order traversal of the tree.
+Node * getNextInorderNode(Node *in)
+{
+    if (!in) return in;
+
+    Node *tmp = in->right;
+    /* Next Inorder candidate is the leftmost node in the right subtree */
+    if(tmp) {
+        while(tmp->left) tmp=tmp->left;
+        return tmp;
+    }
+
+      /* Inorder candidate could be at upper levels */
+    tmp=in;
+    /* keep going up if tmp is the right child
+     * stop only if tmp becomes left child of a parent
+     */
+    while(tmp->parent && tmp->parent->right == tmp) {
+        tmp = tmp->parent;
+    }
+    if (tmp->parent == NULL) {
+        return NULL;
+    } else if(tmp->parent->right != tmp &&
+            tmp->parent->left == tmp) {
+        return tmp->parent;
+    }
+}
+
+Check whether a piece on a chess board can move from A to B. The function should
+return "True or False" if the move is possible. Test cases can range from Pawn
+to Bishop or any other piece. You have to know or calculate how a piece would
+travel, intersect a path , kill an opponent between A and B.
+
+Calculate the depth of a tree, weather its balanced or not
+
+reverse words in string. e.g. "I am a student." => "student a am I"   <same with this style
+
+Given one array, then remove one element, and shuffle. Find out the removed elements.
+
+How to find the first common node of two list given the head of two linked list
+
+//might not need to know
+Implement a method to count the number of '1' symbols in a bit vector in C.
+
+System design/behavioral:
+A question related to how to handle the failure of a data input channel
+
+The second question is to describe how mutex works.
+
+The first question is to find out a duplicate number in an array.
+
+They asked me things about BFS, DFS, and tested my proficiency in data structures.
+
+Explain polymorphism as if you are speaking to your Grand mother.
+
+behavioral questions such as "why microsoft"
+
+//Give several solutions*
+Design and algorithm, give int 1 return int 2, and int 2 return int 1.
+
+Why are interfaces important?
+
+Topics:
+folder structure, endianess
