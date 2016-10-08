@@ -3,6 +3,9 @@ thinking of it as a question-answer session.
 IF PROBLEM HARD, Discuss you're going to use a human solution and develop brute force method
 Then, discuss optimization.
 
+5 rounds of interviews.Each interview with one interviewer and one hour.From 9:00 to around 2:20.
+3rd interview is lunch interview.First interview,the question is more difficult than I thought.So we need a clear mind before interacting with the interviewer.Lunch interview,the first 30 mins is lunch and basic questions about experience and interest.This is a good time to show how interested you are in the team.Every round of interview is about 2 algorithm…
+
 Find first common ancestor given 2 nodes in a tree not necessarily a binary tree.
 
 Clone a linked list with random pointer
@@ -13,10 +16,9 @@ Variation of merge procedure of merge sort.
 
 Given two integers, return the numbers of matched digit number. For ex, 130 and 239, return 1. 29 and 92, return 0
 
-
-reverse liked list,
+reverse linked list,
 inorder traverse of a tree without recursive,
-remove duplicate in array, and
+remove duplicate in array <VERY OFTEN
 sort algorothm
 
 1. Create a queue (enqueue and dequeue methods) using stacks as your only storage method
@@ -30,11 +32,11 @@ write an algorithm that will guarantee that the robot reaches the bottom right
 corner of the grid, or determines that a path (given the above constraints)
 is impossible.
 
-Reverse a singly linked list
+Reverse a singly linked list <kinda often
 
 Sort an array
 
-Given a list of numbers, sort them and remove the duplicate numbers.
+Given a list of numbers, sort them and remove the duplicate numbers. <kinda often
 
 Two rovers are on a planet and can move and set beacons. How would you get them to crash?
 
@@ -44,7 +46,7 @@ Find minimum subarray that adds to a particular number
 
 Write an atoi function for scratch.
 
-combine the two arrays in order without using a sort algorithms after the merge?
+combine the two arrays in order without using a sort algorithms after the merge
 
 string of digits like "72388" and int n, delete n characters from the sting
 such the resulting string contains minimal number representation, you must
@@ -64,6 +66,25 @@ intentionally left up to the interviewee to clarify as much as possible. Follow
 ups included "How would you check for appropriate input? How would you protect
 against attacks, such as a buffer overflow attack? What are…
 
+1.) find a first repeating string in a large text file.
+2.) Check if the given cordinates on a map correspond to the correct address (where address or cordinates are provided in a tab separated file)
+3.) Design a game like angry birds
+
+1) How would you sort large files.
+On campus questions
+1) 2 Sum problem
+2) loop in list, and detect start of it
+3) Design Tic Tac Toe
+
+//oncampus
+Questions can mostly be found on geeksforgeeks, the topics include binarytree,
+recursion, 2d array, suffix trie, hashing etc.
+1. implement "atoi"
+2. the skylines problem
+3. two lines on a 2d dimension, given their end points, check if they intersect (this is more of a math problem but i just coded it up in C++)
+4. binary tree modification, make all parents' values be the sum of their direct children.
+there are more but I…
+
 How would you convert a row number on Excel to a label? Rows are labeled alphabetically with letters added on once the alphabet has been fully used. (Ex. row # 5 is labeled E, row # 27 is labeled AA, row # 28 is AB, row # 53 is BA and so forth) What would the row label be for a large number, such as 1500?
 while(num>0){
     str += getCharFromNum(num%26); // this will return one char from A-Z
@@ -74,6 +95,10 @@ return str;
 How to tell if there's a loop in a linked list. <this comes up often
 
 First one is to print out the first 50 Fibonacci numbers.
+
+Traverse a binary search tree with recursion and iteration
+BST Inorder, post order, all that jazz
+Balanced binary tree
 
 Given a node of a binary tree, find the next node of the in order traversal of the tree.
 Node * getNextInorderNode(Node *in)
@@ -103,6 +128,10 @@ Node * getNextInorderNode(Node *in)
     }
 }
 
+1. leetcode's spiral matrix
+2. wirte a readwrite class and implements readlock readunlock writelock and
+ writeunlock four functions with a mutex class, based on CREW-PRAM
+
 Check whether a piece on a chess board can move from A to B. The function should
 return "True or False" if the move is possible. Test cases can range from Pawn
 to Bishop or any other piece. You have to know or calculate how a piece would
@@ -110,32 +139,329 @@ travel, intersect a path , kill an opponent between A and B.
 
 Calculate the depth of a tree, weather its balanced or not
 
-reverse words in string. e.g. "I am a student." => "student a am I"   <same with this style
+reverse words in string. e.g. "I am a student." => "student a am I"   <VERY OTFTEN
+reverse a string <VERY OFTEN
+reverse a number?
 
 Given one array, then remove one element, and shuffle. Find out the removed elements.
 
 How to find the first common node of two list given the head of two linked list
 
-//might not need to know
-Implement a method to count the number of '1' symbols in a bit vector in C.
+Print all permutations of a string
 
-System design/behavioral:
+1. Priorityqueue to get the top k numbers
+2. reverse print an integer
+
+Q1: Given a string s, if there are two adjacent 'a', turn the substring into 'a';
+if there is one 'b', turn the 'b' into "bb". For example, "aabbaaa"->"abbbbaa";
+Q2: How the STL vector works. (I use C++)
+
+Implement a stack using arrays.
+
+string manipulation like are these strings isomorphic....find the minimum
+distance between the a's in the string....=======
+So basically how you solve this is ...do one pass over the array and store the
+indices of a's in a new array. From this construct a new array with the
+differences(a[i+1]-a[i]). Now find minimum of this array
+
+Given an array of data, find all of the local maximum.
+
+//try dynamic programming? is map most efficient solution
+They gave me a string and asked me how to remove all instances of a certain letter from the string.
+
+Swap lower/uppercase ignoring special characters.
+
+1. Reverse string except spaces. A string has mix of alphabets and spaces. Your task is to reverse the string, but preserve the positions of spaces. For example, reverse of " a if" is " f ia"
+
+2. An array of size n has all but one numbers between 1 and n+1. Find the missing one.
+
+Given two rectangles, check if they intersect? He also asked me if I have seen
+the question before to which I replied I had but that I had not tried solving it.
+
+1st interviewer asked about the Data structure question like Linked list and
+queue and binary tree. and he request to code queue and circular queue. and 2nd
+interviewer ask me Least Recently Used (LRU) Cache questions. And I did not know
+about it so he explained me how it works and he ask coding. 3rd interviewer
+asked me about the function pointer in C/C++ and how Java language can work like
+function pointer in C/C++. Does Java capable to pass the parameter using
+"call by reference" or "call by value"? How Java can pass the address of object?
+
+//ONcampus
+1. How to design a cache data structure for a certain search use case
+2. String comparison/manipulation, and non-binary tree traversal and try to find
+a root-based path qualifying a certain requirement.
+3. Search an element from a matrix.
+4. String reversing with some special characters to check. BinaryTree level by level traversal.
+5. What are you expecting to be in 5 years? Talk about previous working experience.
+
+//Oncampus
+- Implement strcpy
+- Implement strtod
+- Find a path in 2D labyrinth
+- Design URL shortening service
+- Implement add() operation for single-linked list which is cycled having the last element always pointing to the head
+- Implement add() operation for a data structure which holds intervals of integers. Merge the adding interval with any existing ones if they overlap. Eg: given intervals [1-3, 5-7, 9]. Add 3-5 and we get [1-7, 9].
+- Implement bool isMirrored(TreeNode *root) for a binary tree to tell whether a tree is mirrored against the root node
+- Implement bool hasCycles(GraphNode *node) for an arbitrary graph
+- The two eggs problem upgraded to thee eggs
+- Given the stock price updated each second implement a method to provide the top stock price for the last hour whenever asked
+
+multiply 2 numbers without using * sign
+
+//On site interview
+Graph coloring
+There is a pixel map with 1&#039;s representing land and 0 representing water,
+Find the number of continents (not connected groups of 1&#039;s).
+Convert integers to roman numerals
+Write a function to return a list of files (recursively) given the root directory Node.
+How will you design a many to many relational database ?
+What are the considerations you have when creating a web service?
+How would you do load balancing?
+
+
+Thing of a simple O(n^3) algorithm for finding the longest palindrome in a string.
+ Now a O(n^2) one. Now a O(n log n) one.
+
+//ONCampus
+URL shortner- write a method which returns a 7 charchter string for every request. String should be unique on every request.
+Answer Question
+Reverse a sentence. How are you -&gt; you are How
+Answer Question
+Make a copy of a binary tree and describe a solution to transfer this tree from machine A to Machine B and unpack it at Machine B. No correct answer- open ended.
+Answer Question
+Given a binary tree, with a next pointer. Connect every node's next pointer to its immediete neighbour of the same level (if there is one) or the leftmost node of next level . Using this a binary tree can be traversed like a linked list. (Hint: BFS)
+Answer Question
+Efficient way of finding if two strings are anagrams
+
+Set all nodes at the same depth to have a field "next" pointing to the next in the children.. (BT)
+
+//Oncampus
+1. Given a sorted matrix, find an element if it exists.
+2. Given an array of integers with positives and negatives values. sort it in a way where all negative values are on the left side by keeping the relative order. Do it in place.
+3. Given an array of a stock value for each day, give an algorithm to find the maximum profit possible between a buy-day and a sale-day.
+
+//oncampus
+Describe how you would count the words in this newspaper [pointed to a physical newspaper]?
+Answer Question
+How would you search a database for a matching string ignoring certain punctuation/special characters? What pre-processing would you do?
+Answer Question
+Determine the best move for a player in a probabilistic game, with given probabilities for each outcome of each player's move.
+
+//oncampus
+First is find duplicates in a string.
+Second is find maximum continue sum in a array of integers.
+Third is find duplicates in a single linked list
+
+1. What's the difference between IEnumerable and IList. /might not need to know
+2. Interpret a string with different brackets and numbers and valid the string.
+
+/oncampus
+Given a set of employee records, containing an id #, age, and immediate supervisor's id #, find all employees who have a supervisor in their hierarchy of k supervisors who is younger than them.
+
+//oncampus? -- seems a little too easy
+Given a array of shares , find when you have to buy and sell shares to get max profit.
+Searching in a sorted array
+Reverse words in a sentence
+Longest Palindrome in a string
+Given a binary search tree, how to find the shortest path between two nodes?
+
+//on phone
+The first one is maximum subset sum and the second one is to write a program to transpose a matrix.
+
+//on phone
+Was asked how many bits needed to represent 100,000 in binary
+
+//oncampus
+Given a linked list with three fields: a data field, a next field and a random pointer field (which is a field that points to null or to an element in the linked list) write a function to return a copy of the linked list without destructively modifying the original linked list
+
+//oncampus
+At the beginning the usual ones: given a string shuffle it so that no two same letters are together. Sorting with low memory and its space/time complexity. Given a random list of integers write a function that returns sets taken from the list such that the sum of these numbers is equal (if possible). A lot of abstract questions about the fundamentals (sort etc.) and some very tricky ones about how to design efficient algorithms to enumerate some special type of linked lists.
+
+//ONCAMPUS -- might need to worry
+The interviews were pretty nice, they were semi-difficult questions.
+Most of them were based on strings with a couple of graph theory questions.
+Some of the questions are based on your resume experience. If you get walked
+out after lunch the process is over, at the last interview you'll talk to your
+future potential manager.
+Develop a parallel file reader/writer between multiple threads.
+
+//Oncampus
+Suppose you have a string which has characters that are either one or two bytes long. A one byte character has 0 as the left most bit. The first byte of a two byte character has 1 as the left most bit but the second byte's left most bit (LMB) could be either 1 or 0. Implement an algorithm for removing 1 character from the end of the string. How would you do it while scanning backwards from the end of the string.
+
+//oncampus
+The most unexpected question was being asked how to conduct a testing suite efficiently using x number of machines. However, this turned out to be a disguise for a bin packing problem.
+
+//oncampus
+Given pre-order traversal result and in-order traversal result of a tree, recovery the tree.
+Given N computers, how to connect them, how to check two computers are connected.
+
+find out whether a string is an anagram of another string
+
+//oncampus
+And first he asked me my interests and resume about 10mins. And then he asked a technique question: pronounce the number. For example, give you an integer 123456, you should out put "one hundred twenty three thousand and four hundred fifty six".
+
+//oncampus
+Determine if BT is a BST
+
+//oncampus
+Given a method that takes in a string of letters and returns if it is a valid word, how do you solve the problem of word segmentation? In other words, given a string of letters (a-z only) and return a valid break down of the string into an array of words. There are be multiple different valid answers, and your solution need only return one of them.
+Example: segment("hellohowareyou") returns ["hello", "how", "are", "you]
+
+/oncampus
+ Detect an anagram if two worlds are an anagram. Algorithmically, it was an easy problem. Just have a count array for each word that counts the characters that occur then check arrays for equality. My c++ syntax may have been rusty though.
+
+//oncampus
+Given a linked list with a pointer to next and a pointer to random, create a copy of this list. <often
+
+//oncampus
+Imagine a bejeweled board. Every turn, the game must check if a row of n length of valid jewels have been formed or not. If it has been, it must remove and update the board. Write a function that can check for the board every turn for valid rows to remove.
+
+Given a 2D array with increasing integers, find a way to traverse clock-wise and
+print the outside of the matrix first, and then the second layer, until the center values.
+
+How to shuffle a deck of card. How to make it in place.  //interesting
+
+Given a grid of letters (and access to a dictionary function), create a function that will find all of the words in it. A word is made of adjacent letters (up, down, left, right, diagonal) and cannot reuse the same letter (same block on the grid). Find its runtime.
+
+Given a int, return the closest int of of it that is power of 2.
+
+Sort an array of characters and count the number of appearance of each character.
+
+Say you were given a url with multiple occurrences of double periods. How would you replace all the double periods ("..") with a backslash ("\")?
+
+Interview Questions
+Find the longest diameter of a binary tree(doesn't necessarily need to go through the root).
+
+//oncampus
+1. Given two tree. To judge one tree is another tree's subtree.
+2. Given a maze (2D matrix have some block at some position), start position and end position. To find a path.
+3. Given a binary tree. Find the length of the path with maximum path sum, the path may start and end at any node.
+3. Given an array of random real numbers, find the sum of the subset with the maximum sum.
+
+//oncampus
+Given a linked list change swap each sequential pair of two elements.
+\
+Queue implementation with fixed array size
+\
+Given an array, find median element
+
+//oncampus 2014
+First to find a solution to a Sudoku. Second round is to give you a word and a 4 * 4 grid with each square is an character, you can go up, down, left, and right, to judge whether the word can be found in this grid. Third round is to design an online shopping system. Final Round is to find all prime numbers from 1 to 1000.
+Given an array of integers, define an algorithm that deduces whether a given sum can be attained by adding two numbers in the array without using data structures.
+
+//oncampus
+1. Search element in rotated sorted array. 2 Find top two biggest elements in array. 3. Inorder tree traversal (implement iterator). 4. LinkedList operation...Forget other questions, but they are all pretty easy.
+
+//oncampus
+2376 becomes two thousand three hundred and seventy six.
+
+//ONCAMPUS
+Four technical questions:
+1) Given an MxM array make it rotate in a certain way. The rotation was a little
+complicated and I couldn't answer this question very well. The interviewer did
+not do a very good job explaining it.
+Answer Question
+2) Write a new version of strcpy where it will return the null terminator no
+matter what. Did a better job on this one the guy said he was evaluating for
+correctness not only for idea.
+Answer Question
+3) Given a string with many words make a function that would reverse all of the
+letters in every word. For this one I first wrote a crappy algorithm that takes
+O(n^2) but then I did a better one that worked in linear time.
+Answer Question
+4) This guy was more complicated he first asked me different questions about
+object oriented programming. I did not know what a virtual class was. He then
+asked me to do some string manipulation and kept making the problem harder until
+we ran out of time. The problem he started off with was write an algorithm that
+counts how many repeated letters are in a string and kept going from there.
+
+question involving variation of quicksort
+
+dynamic programming question
+
+question involving iterative impl of breath-first search
+
+Write a function to delete an element from a singly linked list.
+
+Without knowing the size of an assumed sorted array, find an element provided.
+
+Implement a stack (don't have to code from scratch) that has a getMax function.
+
+Find the next node in a binary tree from any node (implying   successor to a node)
+
+The question was given a string try to make it a palindrome with least number of charachters
+
+Calculate the factorial of an array of integers.
+
+here is a pattern in an array (i.e. incrementing by two, fibonacci numbers, increment by just one), but one of the increments in the pattern is wrong. How do you figure between which two numbers the pattern is different?
+
+how to delete the number that has shown up before in an   array without sorting. 
+
+Example:
+[1, 3, 5, 6, 8, 10, 12] --&amp;amp;amp;gt; How dod you figure out that the patter fails between the second and third index in the array.
+
+Coin algorithm - I forgot the exact number, but we had 1, 5, 10, 25 cents and based on the number of cents, calculate the least number of coins to achieve the given values.
+
+Might not need to know:
+Implement a method to count the number of '1' symbols in a bit vector in C.
+How to do polynomial addition?
+implement Ceaser cipher
+
+You are provided with a rotating disk and and an unlimited supply of binary color sensors. One half of the disk is colored black and the other half is white. The problem is to determine the rotational direction of the disk.
+
+Tricky:
+You have 9 balls, equally big, equally heavy - except for one, which is a << asked twice
+little heavier. You have a pair of balance scales and how you identify the heavier ball?
+Explain recursion to an 8 year old.
+I was asked some brainteasers taken nearly word-for-word from "How Would You Move Mount Fuji?" which I found surprising.
+
+System design/behavioral:======================================================
 A question related to how to handle the failure of a data input channel
+
+Design the Battleship Game
+
+How would you design an alarm clock program?
+
+most difficult technical problem that you have encountered
 
 The second question is to describe how mutex works.
 
 The first question is to find out a duplicate number in an array.
 
+Design a service to automate the interaction between locked and encrypted Nokia Phones and Microsoft.
+
 They asked me things about BFS, DFS, and tested my proficiency in data structures.
 
 Explain polymorphism as if you are speaking to your Grand mother.
 
+Create a function that will create a score for a word (kinda like words with friends).
+
 behavioral questions such as "why microsoft"
+
+One of them was the difference between an arraylist and linked list.
+
+When working in a group, how do you deal with difficult team members?
+
+You are working for a new ancestry.com style website, what data structure would you use to hold the relationships? Why? Are there any alternatives? What programming language would you use? Why? Would scale of website and development time impact your choices?
+
+The infamous "clock hands" question--how many times do the hour and minute hands of a clock overlap in a 24 hour period?
+
+The most difficult question, I would say, was the explanation of one technology that I listed on my resume
+
+first technique question is about the similarity and difference between C++ and Java
+
+Eight Queen question before
+
+The most impressive project experience. The difficulty in group collaboration.
+
+Build a class for a vending machine.
+
+What is your most favorite project in that past
 
 //Give several solutions*
 Design and algorithm, give int 1 return int 2, and int 2 return int 1.
 
 Why are interfaces important?
 
-Topics:
+Topics:========================================================================
 folder structure, endianess

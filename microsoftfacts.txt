@@ -1,0 +1,89 @@
+I went through the college recruiting process. Microsoft was among the companies that set up stations at our computer science major recruiting fair where I signed up. The first round was on campus: lasted about 40 minutes, and was easy for a computer science major. About a week later, a recruiter emailed me to tell me that I was being invited for on-site interviews in Redmond (Seattle), WA. The recruiters are extremely fast and helpful in communicating; interestingly, Microsoft's recruiting process outdoes other companies (Google, FB etc) completely in efficiency and generosity. You're flown out to Redmond and stay in a really comfy hotel with a generous spending budget.
+
+Now, it's good to know how on-site interviews work: you begin your day early by meeting with your recruiter, who you should befriend since they are "on your side", so to speak, and their input can matter in the decision process. Then, you have consecutive technical interviews lasting about an hour each. You don't have to do perfectly in all of them, but I had a very strong feeling that the first 2 are the most important. The first one is particularly important. If you are doing well, you will get a 4th and sometimes 5th technical interview. If you're lucky, you will afterwards get a final interview with a manager of sometimes, like in my case, a really impressive big boss type person. This big boss can basically hire you on the spot, and its pretty cool that you get to meet someone like this.
+
+Don't forget that for Microsoft, as well as other companies, several things matter for college recruiting; your interviews, first and foremost, but also your coursework, projects, grades, internship experiences, etc. Also, knowing more math than average CS majors helps.
+
+The next day I found out that I was getting an offer, and the next business day after that my recruiter called me with the details over the phone. Microsoft really, really wants smart new grads. The company and culture has REALLY been improving the past few years, and they want smart new grads to keep that up. Offers are actually more generous than at other competing companies.
+
+In my case, you might really like the people you meet or have a personal connection with the big boss type person at the end, in which case your offer could potentially be for the team you actually interviewed with. In this case, you have a choice whether you want to be with that team or go back in the general "hired" pool which is distributed into teams at some later point.
+
+
+
+
+
+Accepted Offer
+Positive Experience
+Average Interview
+Application
+I applied through college or university. The process took 2+ months. I interviewed at Microsoft (Redmond, WA) in February 2015.
+
+Interview
+First round of phone screening was mainly talking about my background. I think the interviewer was from HR/Recruiting so was not very technical. You need to sell yourself in this round. I had a nice project in parallel computing which I focused on and I believe that is what help me secure an on-site. I was also asked a common puzzle- 3 baskets with oranges, apples and mixed. Labels on the baskets are jumbled. Find the correct baskets in one attempt by picking a fruit from any basket
+Advice: Impress your interviewer by marketing your skills well and back it up with the work you have done.
+
+I was flown in to Seattle and based in a Redmond hotel a night before my on-site interview. On the day of the interview a Microsoft cab picks you up from the airport and takes you to their Recruiting building. There were many other candidates, but they were mainly for internships.
+
+You meet with your designated recruiter who is your point of contact post-interview. As mentioned in other reviews, talk nicely with this recruiter and highlight your skill and more importantly your passion for Microsoft. This recruiter has a say in your final yes or no decision.
+
+Had 5 interviews on-site with 5 senior engineers/managers. Each interviewers experience at Microsoft progresivelly increased- ranging from 10 years to 25 years. Each interview is for 1 hour, in which the interviewer will talk about his role/experience for 10-15 minutes, ask about your experience for 10-15 minutes and the rest would be a coding question.
+These interviews were not exceptionally difficult. I felt and had heard that more than cracking every coding questions, at Microsoft, it is more about 1. Being very passionate and excited to join Microsoft 2. Writing clean quality code with comments, main driver function, corner cases, talking as you write and testing the code 3. Presenting yourself professionally.
+
+You have the write background if you ve made it on-site. Focus on that background, while continually showing your excitment about being there and wanting to join Microsoft. Have a solid answer to "Why Microsoft?" Ask them smart questions which show your thinking ability. Before starting to code on whiteboard, ask clarifying questions about the problem, talk about your design to the problem, point out any limitations. Start coding with proper comments, spaces, use good variable/functions names etc.
+You will hear back from the recruiter in 1-3 days. Microsoft gives a generous offer, with bonuses and RSUs, benifits, however, if you have a competing offer do negotiate. You will surely get a higher package.
+
+
+
+The process started at my university career fair where I gave out a resume. They gave me a t-shirt
+
+They got in touch a week later to schedule an on-campus interview at the university career services building. The interviewer asked one general thinking question (not coding) and one coding question. They also asked about my resume and research.
+
+Three or four weeks later I was contacted by an interview scheduler to setup an interview in Redmond. Due to the holiday season, I wasn't able to schedule the interview until a month later in January. The scheduler was not my recruiter and just was setting up the travel and timing. They flew me up and back and put me up in a hotel for 2 nights / 3 days.
+
+On their campus I first met with my recruiter in their recruiting building number 111. They informed me of which team I was interviewing with and stated that I should expect 4-5 hour long interviews (with one extended to 90 minutes to include lunch). In the recruiting building, while waiting to meet with a recruiter, you can play Xbox games, try out Windows Mobile products, and speak with a concierge who can help with sightseeing in Seattle or nightlight or transportation.
+
+The interviews were each with someone from a different sub-team inside the group I interviewed with. Each person had me do a coding question, and some also asked algorithmic or conceptual questions (which didn't require explicit coding). Everything was on the whiteboard. I had 5 total interviews, and had time in 4 of them to ask questions of the interviewer about their team.
+
+After the interviews I met with the recruiter again, and explained that I had immediate deadlines. They agreed to get in contact with the team and get back to me while I hung out in the lobby and relaxed. They came back and informed me that the team was very interested and would be making an offer.
+
+The offer arrived the next day, with fairly standard compensation and bonus/stock. I ended up declining the offer.
+
+
+
+
+
+The interviewer spent the majority of the time asking in-depth questions about my resume, asking me to expand upon many bullet points. He then gave me a quick technical question. Afterwards, the interviewer gave me time to ask some questions.
+
+The onsite interview started at 8am. They had a hotel at the shuttle to pick a group of us up at 7. You will be interviewing for the same position with a group of other people, though the actual interview portions are 1 on 1. It's 4 interviews and then lunch. They questions alternated between the interviewer seeming to think I was completely incompetent basic programming questions and normal fairly difficult technical interview questions. There is a good amount of emphasis on your past experience, and a decent amount of the harder problems only required pseudocode. It is 8am, and there are only minimal breaks between interviews, during which you sit in the lobby chatting with your fellow interviewees/competition. There's some food there, as well as coffee, but be prepared to not have much time to eat or mentally refresh between interviews.
+
+
+
+
+I am a mechanical engineer by training with past programming experience for primarily personal projects (video games and such) in multiple languages. I'm currently in a PhD program finishing up the masters portion. I casually chatted with a recruiter at a university career fair who told me that he will pass on my resume and that there "may" be something for me at Microsoft but he doesn't know what. He told me to contact the university recruiter in a few days and she might be able to help me better. They called me for a screening interview for an internship the day after.
+
+I'm not - what I like to call - "classically trained" when it comes to computer science. I prepared for the screening interview by going through the MIT OCW Algorithms and Data Structures course and also reading Miller and Ranum's "Problem Solving with Algorithms and Data Structures." The screening interview went better than expected. Among other things, I was asked to design a parking lot and write code for detecting palindromes.
+
+A few weeks later I got a call for a final round interview. It took a while for them to schedule an interview and they gave me a date which was 3 days after a major deadline with my sponsor and so I requested a later date. The scheduler worked with my availability and got me a date that worked. They flew me to Redmond for an interview with the Bing team (I wasn't given that information until the morning of the interview). I was supposed to get 3 to 5 interviews. My first interviewer was late because he missed an email sent by the receptionist. Everything after that went smoothly. I got through all 5 interviews. The third interview was over lunch (we wrote code after, not during). The fifth interview was with a program manager. The questions seemed relatively easy. The topics were: queue design, common ancestor search in a tree with no underlying structure, mixed uni and multi byte character strings, detection of unique addresses, and linked list scanning and element removal. Some interviewers wanted me to just solve a problem as well as I could. Others were looking for a discussion of the problem (one of which was actually very interesting and have the interviewer some new ideas).
+
+At the very end I asked the hiring manager some subtle questions about my performance and what kind of competition I was facing. It's nice to be told that there is a "high probability" of them making an offer :)
+
+
+
+
+
+
+
+
+Was contacted by phone and email 2 months after applying online and through campus recruiting. Phone interview consisted of fairly basic data structure questions involving stacks/queues and things like bucket sort. I was surprised by how tailored to my resume all of the other questions were, though. So make sure that you know everything you put on your resume well enough to speak strongly about. I made this mistake but it was apparently minor enough since I got invited for onsite interviews.
+
+Flew out to Seattle within 2 weeks of my phone interview. We stayed in the commons and hung out with a large (>40) group of other applicants for various positions--mostly SDE intern. It was pretty neat as we got to ride a party bus to the campus. The waiting room for all the interns was very nice. Large touchscreen TV for fruit ninja, another large surface table for other minigames, catered snacks and drinks.
+
+I was an afternoon interviewee so we went to lunch first. The Microsoft lunch area is very nice. We got a $10 voucher for any restaurant type establishment. Everything had a bit of an upscale mall food court feel in a good way. Drinks were also free for all employees, which is cool.
+
+I was interviewing for a position in MSIT, which is Microsoft's internal tooling software teams. Things like the enterprise e-commerce division and others. Three technical interviews which were equal parts conversational and coding and one completely conversational job fit. Again my resume topics were discussed quite a bit more than I expected.
+
+ My interviewers were very interested in projects that I had worked on in groups and broad design choices we had made, so if you have any, be ready to speak to them.
+
+The interviews went well enough, though I think I choked in the last technical interview. They gradually make your solutions more and more difficult by adding restrictions like runtime and allowed data structures. It got to a point where I simply didn't have an answer, but that might be what they're looking for.
+
+2 business days later, I got a call with an offer from my recruiter for an SDE position. A slightly lower base salary from the average, but I suspect they're including at least part of the -very- generous benefits package that Microsoft provides.
