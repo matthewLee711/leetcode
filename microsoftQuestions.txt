@@ -87,7 +87,7 @@ recursion, 2d array, suffix trie, hashing etc.
 3. two lines on a 2d dimension, given their end points, check if they intersect
 (this is more of a math problem but i just coded it up in C++)=========================================
 4. binary tree modification, make all parents' values be the sum of their direct children.======================
-there are more but I…
+there are more but I… <LAST TOP>>>>>>>>>>>>>>
 
 How would you convert a row number on Excel to a label? Rows are labeled alphabetically with letters added on once the alphabet has been fully used. (Ex. row # 5 is labeled E, row # 27 is labeled AA, row # 28 is AB, row # 53 is BA and so forth) What would the row label be for a large number, such as 1500?
 while(num>0){

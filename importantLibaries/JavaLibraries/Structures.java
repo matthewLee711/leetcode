@@ -1,6 +1,18 @@
 import java.util.*;
 
-public class Dog {
+public class Structures {
+
+  public static void aStack() {
+    Stack mystack = new Stack();
+    mystack.push(new Integer(1));
+    mystack.pop();
+    mystack.isEmpty();
+  }
+
+  public static void arraylist() {
+
+  }
+
   public static void hashTest() {
     //Map hm = new HashMap();//try not use this bc raw type
     //OR
@@ -10,7 +22,7 @@ public class Dog {
   }
 
   public static void Test() {
-    
+
   }
 
 

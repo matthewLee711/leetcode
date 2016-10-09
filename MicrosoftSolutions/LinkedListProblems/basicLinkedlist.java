@@ -1,11 +1,11 @@
 //loop in list, and detect start of it
-// <COMPLETE>
-class OCLoop {
+
+class basicLinkedList {
   public Node head;
-  public OCLoop() {
+  public basicLinkedList() {
     this.head = null;
   }
-  //add to back
+
   public void addToBack(int data) {
     Node newNode = new Node(data);
     if(head == null) {
@@ -21,21 +21,6 @@ class OCLoop {
 
   }
 
-  public void hasCycle() {
-    Node fast = head;
-    Node slow = head;
-    while(fast != null && fast.next != null) {
-      slow = slow.next;
-      fast = fast.next.next;
-
-      if(slow == fast) {
-        return true;
-      }
-    }
-    return false;
-  }
-
-  //Node for each link
   class Node {
     public Object data;
     public Node next;
@@ -47,7 +32,7 @@ class OCLoop {
   }
 
   public static void main(String[] args) {
-    OCLoop test = new OCLoop();
+    basicLinkedList test = new basicLinkedList();
     int[] stuff = {4, 6, 7, 8, 5};
 
     for(int insert : stuff) {
