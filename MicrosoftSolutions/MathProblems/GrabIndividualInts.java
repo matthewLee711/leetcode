@@ -1,11 +1,12 @@
 import java.util.*;
 // <COMPLETE>
+//Grab each individual number from large number
 class GrabIndividualInts {
   public static void main(String[] args) {
     Stack <Integer> holdNums = new Stack<Integer>();
     Iterator<Integer> iter = holdNums.iterator();
 
-    int number = 6692;
+    int number = 16392;
 
     while(number > 0) {
       holdNums.push(number % 10);

@@ -15,14 +15,14 @@ Clone a linked list with random pointer<STARTED>
 
 Variation of merge procedure of merge sort.<COMPLETE>
 
-Given two integers, return the numbers of matched digit number. For ex, 130 and 239, return 1. 29 and 92, return 0
+Given two integers, return the numbers of matched digit number. For ex, 130 and 239, return 1. 29 and 92, return 0<COMPLETE>
 
 reverse linked list,
-inorder traverse of a tree without recursive,
+inorder traverse of a tree without recursive,<COMPLETE>
 remove duplicate in array <VERY OFTEN
 sort algorothm
 
-1. Create a queue (enqueue and dequeue methods) using stacks as your only storage method
+1. Create a queue (enqueue and dequeue methods) using stacks as your only storage method<COMPLETE>
 2. Binary tree from inorder and preorder traversal pair
 3. Find where two linked lists converge in O(n) time and O(1) memory.
 Linked lists are guarantied to be valid and to converge at some point

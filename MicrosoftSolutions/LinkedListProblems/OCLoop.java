@@ -1,5 +1,5 @@
 //loop in list, and detect start of it
-// <COMPLETE>
+// <HAVENT TESTED>
 class OCLoop {
   public Node head;
   public OCLoop() {
