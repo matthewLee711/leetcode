@@ -23,10 +23,10 @@ remove duplicate in array <VERY OFTEN
 sort algorothm
 
 1. Create a queue (enqueue and dequeue methods) using stacks as your only storage method<COMPLETE>
-2. Binary tree from inorder and preorder traversal pair
-3. Find where two linked lists converge in O(n) time and O(1) memory.
+2. Binary tree from inorder and preorder traversal pair <STARTED>
+3. Find where two linked lists converge in O(n) time and O(1) memory. <STARTED>
 Linked lists are guarantied to be valid and to converge at some point
-4. Print duplicates in an array (you may either print duplicate values many times or just once as they're discovered)
+4. Print duplicates in an array (you may either print duplicate values many times or just once as they're discovered) <easy, not did>
 
 Given a 2-D grid with certain cells (coordinates given) being inaccessible, and
 a virtual robot starting in the top left corner that can only go down or right,

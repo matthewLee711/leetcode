@@ -12,3 +12,6 @@
 
 //what if generate any smallest number?
 //solution 1:
+//extract numbres and store them into an array.
+//start from edges of both and delete number that is bigger
+//once complete, convert array back to int

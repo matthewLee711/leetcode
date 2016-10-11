@@ -1,4 +1,9 @@
+//Solution 1: O(n) space O(1)
 //write an algorithm to detect if T2 is a subtree of T1
+//to do this, find the postorder and inorder of both trees
+//Store answer into string, and use .contains
+//http://algorithms.tutorialhorizon.com/given-two-binary-trees-check-if-one-binary-tree-is-a-subtree-of-another/
+// <HAVNT TESTED>
 class SubTree {
   Node root;
 

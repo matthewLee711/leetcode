@@ -1,0 +1,18 @@
+1. Clarify and understand the problem.
+
+2. Begin writing test solutions
+
+3. Tell interviewer you are going to solve with human approach(depends on difficulty)
+If know solution, make sure to focus on looking like you are solving.
+  A. While solving, discuss problem
+    - Identify Data Structures needed.
+    - Keep doing this action until.... something complete
+  B. Once have basic solution, discuss time/space complexity
+
+4. After come up with human approach, optimize
+  A. What do you think of this approach?
+  B. I've come up with a solution with this complexity
+    - This is the my optimal solution with complexity because....
+    - ASK "is this good enough?" ONLY if you are stumped.
+
+5. Start coding!
