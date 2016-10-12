@@ -60,15 +60,15 @@ class BST {
   public void preorder(Node node) {
     if(node != null) {
       System.out.println(node.data);
-      inorder(node.left);
-      inorder(node.right);
+      preorder(node.left);
+      preorder(node.right);
     }
   }
 
   public void postorder(Node node) {
     if(node != null) {
-      inorder(node.left);
-      inorder(node.right);
+      postorder(node.left);
+      postorder(node.right);
       System.out.println(node.data);
     }
   }

@@ -1,0 +1,25 @@
+//solve all hard problems
+
+LINKED LIST STUFF:
+//reverse linked list
+//remove node from linked list
+//delete duplicates from linked list
+//detect if cyclical linked list
+
+STRING:
+//reverse string or setence
+//anagram
+//palindrome
+//convert sting to int
+
+ARRAY:
+//Merge two arrays
+//longest sub array
+
+Matrix:
+//search matrix
+//rotate matrix
+//spiral matrix
+
+Trees:
+//pre, inorder, post

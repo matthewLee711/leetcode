@@ -30,7 +30,14 @@ class SubTree {
     }
     return node;
   }
-
+  //           5
+  //         /   \
+  //       3      7
+  //     /   \   /
+  //    2     4 6
+  //   /
+  // 1
+  //printing tree in order
   public void inorder(Node node) {
     if(node != null) {
       inorder(node.left);
@@ -38,19 +45,19 @@ class SubTree {
       inorder(node.right);
     }
   }
-
+  //root -> left -> right (all from top to bottom)
   public void preorder(Node node) {
     if(node != null) {
       System.out.println(node.data);
-      inorder(node.left);
-      inorder(node.right);
+      preorder(node.left);
+      preorder(node.right);
     }
   }
-
+  //printing tree left bottom leafs -> root -> right bottom leafs
   public void postorder(Node node) {
     if(node != null) {
-      inorder(node.left);
-      inorder(node.right);
+      postorder(node.left);
+      postorder(node.right);
       System.out.println(node.data);
     }
   }
@@ -72,7 +79,7 @@ class SubTree {
   public static void main(String[] args) {
     SubTree tree1 = new SubTree();
     SubTree subtree = new SubTree();
-    int[] arr1 = {0,1,2,3,4,5,6};
+    int[] arr1 = {5,3,2,1,4,7,6};
     int[] arr2 = {1,2,3};
     for(int data : arr1) {
       tree1.insertR(data);
@@ -80,10 +87,20 @@ class SubTree {
     for(int data : arr2) {
       subtree.insertR(data);
     }
-
-    // tree1.inorder(tree1.root);
-    // subtree.inorder(subtree.root);
-    // tree1.preorder(tree1.root);
-    // tree1.postorder(tree1.root);
+    //           5
+    //         /   \
+    //       3      7
+    //     /   \   /
+    //    2     4 6
+    //   /
+    // 1
+    tree1.inorder(tree1.root);
+    System.out.println("----");
+    //subtree.inorder(subtree.root);
+    System.out.println("----");
+    tree1.postorder(tree1.root);
+    System.out.println("----");
+    tree1.preorder(tree1.root);
+    System.out.println("----");
   }
 }
